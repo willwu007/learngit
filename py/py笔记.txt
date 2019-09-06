@@ -1,0 +1,15 @@
+python 3.X不需要在设置声明utf-8，pycham2.x需要
+
+cmd命令输入python -V(大写)  可以查看python版本号
+
+1、print("hello,word!!")，py3格式，输出hello，word
+2、注释：#（单行注释）、'''、"""
+3、缩进不一致会导致运行错误
+if True:
+    print ("Answer")
+    print ("True")
+else:
+    print ("Answer")
+  print ("False")    # 缩进不一致，会导致运行错误
+4、可以用反斜杠换行：\
+5、py大小写敏感，假：False。真：Ture
